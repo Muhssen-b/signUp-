@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(65, 160, 192);
+    color: white;
+    padding:50px 0px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 226, 226);
+    padding: 10px 110px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+
