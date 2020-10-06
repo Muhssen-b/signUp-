@@ -2,13 +2,19 @@ import React from 'react';
 import FormUserDetails from './FormUserDetails.js';
 import Confirm from './Confirm.js'
 import Success from './Success'
+
 class UserForm extends React.Component {
        state = {
            step: 1,
            userName: "",
+           userNameError: "",
            email: "",
+           emailError: "",
+           phoneNumber: "",
+           phoneNumberError: "",
            linkedIn: "",
-           instagram: "",
+           linkedInError: "",
+           instagramError: "",
         }
   //Proceed to next step
   nextStep = () => {
